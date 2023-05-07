@@ -53,7 +53,7 @@ function App() {
       <div className="search">
         { type === 'city' ?( 
           
-          <input type="text" placeholder='Enter Your city' onChange={e=>setCity(e.target.value)} value={city} onKeyDown={handlePress} /> ) 
+          <input type="text" placeholder='Enter place name' onChange={e=>setCity(e.target.value)} value={city} onKeyDown={handlePress} /> ) 
           : (<>
           <input className='lat' type="number" placeholder='lat' onChange={e=>setLat(e.target.value)} value={lat} onKeyDown={handlePress} />
           <input className='lat' type="number" placeholder='long' onChange={e=>setLong(e.target.value)} value={long} onKeyDown={handlePress} />
