@@ -25,7 +25,7 @@ function App() {
 
   const getData = async() =>{
     
-      await axios.post('https://sijju.pythonanywehre.com/api/getData',dataSend)
+      await axios.post('https://sijju.pythonanywhere.com/api/getData',dataSend)
       
       .then(result => {
         setData(result.data.data)
