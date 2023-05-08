@@ -7,6 +7,8 @@ const Card = ({data}) => {
     <div className="wrapper">
 
       <div className="card">
+       
+
        {res.length !==0 && res[0]?.code!==1006 ? <>
         <h2>{res[0]?.name},{res[0]?.country}</h2>
         <p>lat : {res[0]?.lat} | long : {res[0]?.lon}</p>
